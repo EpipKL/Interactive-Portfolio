@@ -1,0 +1,46 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "1_Generic_48x48.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Generic_Home_1_Layer_1_48x48.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "KyleSprite.tsx": {
+            "scaleInDock": 1
+        },
+        "Room_Builder_48x48.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 0.03125
+        }
+    },
+    "last.imagePath": "C:/Users/Epiph/OneDrive/Desktop/Modern Pixel Tileset/Modern Interiors/1_Interiors/48x48",
+    "map.tileHeight": 48,
+    "map.tileWidth": 48,
+    "openFiles": [
+        "1_Generic_48x48.tsx",
+        "Generic_Home_1_Layer_1_48x48.tsx",
+        "Room_Builder_48x48.tsx"
+    ],
+    "project": "Maps.tiled-project",
+    "recentFiles": [
+        "Room_Builder_48x48.tsx",
+        "Generic_Home_1_Layer_1_48x48.tsx",
+        "1_Generic_48x48.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 48,
+        "width": 48
+    }
+}
