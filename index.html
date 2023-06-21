@@ -4,26 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles.css">
     <title>Kyle Portfolio Beta</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+
+
     
+<!-- Desktop Site -->
+
 <main class="desktop">
+    <div class="container display-flex">
     <div class="black-bar-left"></div>
-        <canvas>
-        </canvas>
-    <div class="black-bar-right"></div>
+
+        
+        <!-- Landing Section -->
+        <section id="landing" class="section of-hidden bg-red">
+            
+            
+            <div id="header" class="container bg-red">
+                <header class="display-flex justify-content-between">
+                    <a href="#">
+                        <img id="settings" class="m1 pixel" src="./assets/img/Home Button.png" alt="Home Icon">
+                    </a>
+
+
+                    <h1 id="kl" class="txt-white fs-8">Kyle Lucas</h1>
+                    
+                    <a href="#">
+                        <img id="sound-on" class="m1 pixel" src="./assets/img/Sound Button.png" alt="Sound On Icon">
+                    </a>
+                    
+                    
+                    
+                </header>
+            </div>
+
+            <!-- <div>
+                <ul class="display-flex flex-column justify-content-center align-items-center">
+                    <li class="fs-5">Play</li>
+                    <li class="fs-5">About</li>
+                    <li class="fs-5">Contact</li>
+                    <li class="fs-5">Portfolio</li>
+                </ul>
+            </div> -->
+
+            <br>
+
+            <div class="container display-flex flex-column justify-content-center align-items-center m5">
+                <a href="#" class="link fs-3 border width-100">Play</a>
+
+                <br>
+
+                <a href="#" class="link fs-3 border width-100">About me</a>
+
+                <br>
+
+                <a href="#" class="link fs-3 border width-100">Portfolio</a>
+
+                <br>
+
+                <a href="#" class="link fs-3 border width-100">Contact me</a>
+
+            </div>
+
+
+            <div class="container">
+                <div class="display-flex flex-end">
+                    <a href="#">
+                        <img id="help" class="m1 pixel" src="assets/img/Help Button.png" alt="Help Button">
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+        <div class="black-bar-right"></div>
+    </div>
+    <!-- Ending of Landing Section -->
+
+    <!-- About Me Section -->
+        <section id="about-me" class="section">
+
+        </section>
+    <!-- Ending of About Me Section -->
+
+    <!-- Contact Me Section -->
+        <section id="contact-me">
+
+        </section>
+    <!-- Ending of Contact Me Section -->
+
+    <!-- Portfolio Section -->
+        <section id="portfolio">
+
+        </section>
+
 </main>
 
+<!-- Ending of Desktop Site -->
+<!-- Mobile Site -->
+
 <main class="mobile">
-    <div class="m-container">
-        <h1>This page is not available for mobile screens.</h1>
+    <div class="m-container display-flex flex-column">
+        <h1 class="fs-3 txt-white"">This page is not available for mobile screens.</h1>
         <br>
-        <h3><em>Sorry!</em></h3>
+        <p class="fs-2 txt-white"">This feature is coming soon until then please use a laptop or desktop.</p>
+        <br>
+        <p class="fs-2" ><em>Sorry!</em></p>
+
+        <br>
+
+        <canvas id="m-canvas"></canvas>
+
     </div>
 </main>
 
+<!-- Ending of Mobile Site -->
+
+    <!-- <script src="./assets/main.js"></script> -->
     <script src="./assets/main.js"></script>
+    <script src="./assets/mobile.js"></script>
 </body>
 </html>
